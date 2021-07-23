@@ -64,7 +64,7 @@
 .buttonReg {
     border-radius: 5px;
     background-color: white;
-    color: darkblue;
+    color: black;
     font-weight: bolder;
     border: 2px solid grey;
     border-style: outset;
@@ -73,7 +73,7 @@
 
 .buttonReg:hover {
     border-radius: 5px;
-    background-color: darkblue;
+    background-color: black;
     color: white;
     cursor: pointer;
 }
@@ -89,17 +89,17 @@
 .backButton {
     border-radius: 5px;
     background-color: white;
-    color: darkblue;
+    color: black;
     font-weight: bolder;
     border: 2px solid grey;
     border-style: outset;
     padding: 10px;
     text-decoration: none;
-}   
+}       
 
 .backButton:hover {
     border-radius: 5px;
-    background-color: darkblue;
+    background-color: black;
     color: white;
     cursor: pointer;
 }
