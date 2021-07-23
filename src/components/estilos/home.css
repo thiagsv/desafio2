@@ -1,0 +1,55 @@
+.margin {
+    margin: 20%;
+    margin-top: 15%;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-image: radial-gradient(rgb(145, 143, 143), grey);
+    border: 4px solid rgb(77, 77, 77);
+    border-style: outset;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+
+}
+.titleText{
+    color: white;
+    padding-bottom: 15px;
+    text-shadow: black 0.2em 0.2em 0.3em;
+
+}
+
+.buttonBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: none;
+
+}
+
+.hide {
+    border: none;
+    background-color: inherit;
+}
+
+.button{
+    background-color: white;
+    padding: 15px;
+    font-size: medium;
+    border-radius: 12px;
+    border:2px  rgb(36, 36, 36);
+    border-style: outset;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button:hover{
+    cursor: pointer;
+    border: rgb(36, 36, 36);
+    border-style: outset;
+    color: white;
+    background-color: darkblue;
+}
