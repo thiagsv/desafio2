@@ -13,6 +13,7 @@ const Register = (props) => {
   function handleClick(){
     const data = [first, second, third, fourth];
     localStorage.setItem('data', JSON.stringify(data));
+    alert('Cadastro realizado com sucesso!')
 }
   return (
     <>
